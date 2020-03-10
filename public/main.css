@@ -1,24 +1,37 @@
 body{
   font-family: 'Nunito', sans-serif;
+  background-color: #2787b6;
 }
 
 #temperatura p{
   color: #0e2fa5;
+  width: 600px;
+  align-content: center;
   padding: 14px 0;
-  matrgin: 0 20px;
-  background: #eee;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50 20px;
+  background: #FFFFFF;
   text-align: center;
   font-size: 30px;
   border-bottom: 1px solid #e9e9e9;
+  -webkit-box-shadow: -16px 10px 5px 0px rgba(0,0,0,0.40);
+  -moz-box-shadow: -16px 10px 5px 0px rgba(0,0,0,0.40);
+  box-shadow: -16px 10px 5px 0px rgba(0,0,0,0.40);
 }
 
 #logo{
 display:block;
-margin:auto;
+margin: 50 20px;
+padding: 14px 40%;
+background-color: #FFFFFF;
 }
 
 #grafica{
-  background: #eee;
+  background: #FFFFFF;
   display:block;
   margin:auto;
+  -webkit-box-shadow: -1px 0px 5px 5px rgba(0,0,0,0.48);
+-moz-box-shadow: -1px 0px 5px 5px rgba(0,0,0,0.48);
+box-shadow: -1px 0px 5px 5px rgba(0,0,0,0.48);
 }

@@ -105,9 +105,11 @@ function graficar()
 
     y = historicoTemp[i];
     linea("red", xant, 356 - yant*50/xInterval, x, 356 - y*50/xInterval, dibujo);
+    circulo(x, 356 - y*50/xInterval);
     xant = x;
     x += 20;
     yant = y;
+
   }
   if(i > 3)
   {
@@ -115,4 +117,13 @@ function graficar()
   }
 
 
+}
+
+function circulo(eX, eY)
+{
+ dibujo.beginPath();
+ dibujo.arc(eX, eY, 3, 0, (Math.PI/180)*360);
+ dibujo.fill();
+ dibujo.stroke();
+ dibujo.closePath();
 }

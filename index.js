@@ -3,6 +3,20 @@ const express = require("express");
 const app = express();
 var SerialPort = require("serialport");
 
+/*var getPortsList = (callback) => {
+  var portsList = [];
+
+  SerialPort.list((err, ports) => {
+    ports.forEach((port) => {
+      portsList.push(port.comName);
+    });
+
+    callback(null, portsList);
+  });
+  return portsList;
+};
+var list = getPortsList();
+console.log(list);*/
 //setings
 app.set('port', process.env.PORT || 3000);
 
