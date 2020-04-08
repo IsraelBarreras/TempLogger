@@ -5,3 +5,5 @@ El proyecto consiste en un logger de temperatura, montando un servidor web local
 Antes de ejecutar deberás asegurarte de que en la linea 40 del archivo "index.js" este el puerto COM correcto ya que esto cambiará en cada PC, conecta tu convertidor FTID a un puerto USB y revisa que puero COM es asignado, luego cámbialo en la linea antes mensionada.
 
 Una vez hecho esto en la carpeta PCB se encuentran los archivos de fabricación de las tarjetas y podrás encontrar una descripción en https://tecnoingenia.com , la idea es que funcione por medio de radio frecuencia pero no es necesario, bastará con conectar tu arduino a la PC con el sensor que gustes y enviar el valor por puerto serie con la frecuencia que decees que se grafiquen los datos.
+
+[![logger](https://tecnoingenia.com/wp-content/uploads/2020/03/portada.png "logger")](https://tecnoingenia.com/wp-content/uploads/2020/03/portada.png "logger")
